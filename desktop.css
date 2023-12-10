@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 50%;
+    height: 60px;
+    border: 2px solid saddlebrown;
+    
+}
+
+.navbar{
+    width: 50%;
+    height: 60px;
+    border: 2px solid saddlebrown;
+    & ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px auto;
+    } 
+}
+
+.content-container{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   border: 2px rebeccapurple solid;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px rebeccapurple solid;
+   }
